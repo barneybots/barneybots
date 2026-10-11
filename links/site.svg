@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="133" height="34" viewBox="0 0 133 34" role="img" aria-label="SITE: eqp.wtf">
+  <title>SITE: eqp.wtf</title>
+  <rect x="0.5" y="0.5" width="132" height="33" rx="9" fill="#0a0a0c" stroke="#f87171" stroke-opacity="0.35"/>
+  <rect x="1" y="1" width="52" height="32" rx="8.5" fill="#f87171" fill-opacity="0.12"/>
+  <text x="26" y="21.5" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Consolas, monospace" font-size="11.5" font-weight="700" letter-spacing="1.2" fill="#f87171">SITE</text>
+  <text x="93" y="22" text-anchor="middle" font-family="'Segoe UI', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#f4f1ef">eqp.wtf</text>
+</svg>
