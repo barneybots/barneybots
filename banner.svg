@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 330" width="1280" height="330" role="img" aria-label="Barney — assinatura">
+  <title>Barney — João Leonardo, Rio de Janeiro</title>
+  <defs>
+    <radialGradient id="glow" cx="78%" cy="40%" r="55%">
+      <stop offset="0" stop-color="#f87171" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#f87171" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.035"/>
+    </pattern>
+  </defs>
+  <style>
+    .stroke, .finish { fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-dasharray: 1; stroke-dashoffset: 1; }
+    .stroke { stroke: #f4f1ef; stroke-width: 7; animation: draw 9s ease-in-out infinite; }
+    .finish { stroke: #f87171; stroke-width: 4; animation: draw 9s ease-in-out infinite; animation-delay: 2.1s; }
+    .s0 { animation-delay: 0.15s; }
+    .s1 { animation-delay: 0.47s; }
+    .s2 { animation-delay: 0.79s; }
+    .s3 { animation-delay: 1.11s; }
+    .s4 { animation-delay: 1.43s; }
+    .s5 { animation-delay: 1.75s; }
+    .meta { font: 600 18px ui-monospace, SFMono-Regular, Consolas, monospace; fill: #a3a3a3; letter-spacing: 2px; }
+    .line { font: 500 40px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f4f1ef; letter-spacing: -0.5px; }
+    .accent { fill: #f87171; }
+    .small { font: 400 21px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #9c9c9c; }
+    /* Drawn stroke by stroke, held, then faded out and drawn again. */
+    @keyframes draw {
+      0% { stroke-dashoffset: 1; opacity: 1; }
+      22% { stroke-dashoffset: 0; opacity: 1; }
+      82% { stroke-dashoffset: 0; opacity: 1; }
+      94% { stroke-dashoffset: 0; opacity: 0; }
+      100% { stroke-dashoffset: 1; opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .stroke, .finish { animation: none; stroke-dashoffset: 0; } }
+  </style>
+  <rect width="1280" height="330" rx="22" fill="#0a0a0c"/>
+  <rect width="1280" height="330" rx="22" fill="url(#grid)"/>
+  <rect width="1280" height="330" rx="22" fill="url(#glow)"/>
+  <g transform="translate(10 22) scale(0.86)">
+    <path class="stroke s0" pathLength="1" d="M105 235 C132 190 169 98 201 38 C217 12 234 18 221 73 C191 249 132 266 132 224 C132 196 169 151 199 148 C235 144 243 180 214 214 C192 241 161 244 144 233"/>
+    <path class="stroke s1" pathLength="1" d="M312 159 C290 147 267 174 259 204 C250 235 269 252 287 232 L332 169 C321 196 302 236 319 240 C335 244 356 216 367 201"/>
+    <path class="stroke s2" pathLength="1" d="M356 228 L392 151 C379 169 387 177 404 165 C426 148 440 151 436 174 C431 193 414 215 432 226 C445 236 457 222 469 207"/>
+    <path class="stroke s3" pathLength="1" d="M464 226 L500 155 L479 213 C504 169 531 143 548 157 C562 176 522 210 542 227 C555 235 571 220 580 205"/>
+    <path class="stroke s4" pathLength="1" d="M575 211 C620 220 638 172 610 163 C584 154 565 187 576 219 C590 248 626 228 650 207"/>
+    <path class="stroke s5" pathLength="1" d="M650 162 C637 190 625 232 648 228 C666 223 690 175 697 160 C691 203 658 283 609 283 C572 283 581 243 649 224 C709 207 781 218 835 196"/>
+    <path class="finish" pathLength="1" d="M173 282 C307 269 519 274 749 249"/>
+  </g>
+  <g transform="translate(752 0)">
+    <text class="meta" x="0" y="104">JOÃO LEONARDO / RIO DE JANEIRO</text>
+    <text class="line" x="0" y="164">João no nome.</text>
+    <text class="line accent" x="0" y="214">Barney por aqui.</text>
+    <text class="small" x="0" y="262">Interfaces, aplicativos e coisas para o Discord.</text>
+  </g>
+</svg>
